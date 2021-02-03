@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/* Zmienne (Variables) */
+
+:root{
+        --primary-font: 'Noto Sans JP', sans-serif;
+        --turquisie-color: rgb(10, 212, 202);
+}
+
+html, body{
+        margin: 0%;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+}
+
+.active{
+        color: var(--turquisie-color);
+}
+
+/* start navigation*/
+
+.header-area .main-menu .navbar{
+        padding: 1rem 2rem;
+}
+
+.header-area .main-menu .nav-item{
+        text-transform: uppercase;
+        font-family: var(--primary-font);
+        padding: 0 2rem;
+        color: black;
+}
+
+.header-area .main-menu .navbar .active{
+        color: var(--turquisie-color);
+
+}
+
+.header-area .main-menu .nav-item:hover{
+        transition: color .5s;
+        color: var(--turquisie-color);
+
+
+}
+
+.fa-laptop-house{
+        color: var(--turquisie-color);
+        font-size: 2rem;
+     
+}
+
+/* Banner area */
+
+.site-main .site-banner .site-title{
+        padding-left: 7rem;
+}
+
+.site-main .site-banner .site-title h3{
+        padding-top: 30%;
+        font-weight: 1000;
+        font-size: 3rem;
+        text-transform: uppercase;
+}
+
+.site-main .site-banner .site-title h3::after{
+        content: "";
+        height: 4px;
+        width: 13.5vw;
+        background-color: black;
+        display: inline-block;
+        margin-left: 5%;
+        transform: translateY(-17px);
+}
+
+.site-main .site-banner .site-title h4{
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+}
+
+
+.site-main .site-banner .banner-image> img{
+        
+        width: 50rem;
+        
+}
+
+.button{
+        padding: .5rem 2rem;
+        font-size: 1rem;
+        font-weight: 500;
+        position: relative;
+        border: 3px solid transparent;
+        border-radius: 5px;
+}
+
+.button.primary-button{
+        background: var(--turquisie-color);
+        color: #fff;
+        transition: background .8s ease;
+        
+}
+
+.button.primary-button:hover{
+        background: whitesmoke;
+        color: black;
+        border-color: var(--turquisie-color);
+}
+
+.button.secondary-button{
+        border-color: var(--turquisie-color);
+        background-color: #fff;
+        transition: background-color .8s ease;
+        
+}
+
+.button.secondary-button:hover{
+        background-color: var(--turquisie-color);
+        color: #fff;
+}
+
+.collapse .card a:hover{
+        text-decoration: none;
+}
+
+.btn.focus, .btn:focus {
+        outline: 0;
+        box-shadow: none!important;
+}
+
+
+.about-area .row
+{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        padding-left: 10rem;
+        margin-bottom: -10rem;
+
+}
+
+
+.fa-circle{
+        color: var(--turquisie-color);
+}
+
+.fa-html5,
+.fa-js-square,
+.fa-angular,
+.fa-bootstrap,
+.fa-globe-americas,
+.fa-css3,
+.fa-keyboard{
+        color: var(--turquisie-color);
+        font-size: 2rem;
+        padding-right: .3rem;
+}
+
+/* o mnie */
+.about-me{
+        padding-top: 10%;
+        padding-bottom: 5%;
+}
+
+.about-me .center-text-about-me{
+
+        text-align: center;
+        padding: 0 5rem;
+        font-size: 1.4rem;
+        
+}
+.about-me .headline{
+        font-size: 3rem;
+        font-weight: 700;
+}
+
+/*Zrealizowane projekty */
+
+.project-area{
+        margin-top: 12rem;
+
+}
+
+.project-area .title-h1,
+.project-area .button-group{
+        text-align: center;
+}
+
+.project-area .button-group button{
+        padding: .8rem 2rem;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+}
+
+.hd-one-image{
+        width: 22rem;
+        height: 11rem;
+        transition: box-shadow .5s;
+}
+
+.hd-one-image:hover{
+        
+        box-shadow: 2px 2px 15px black;
+}
+
+.grid{
+        padding: 2rem .3rem;
+
+}
+
+@media only screen and (max-width: 720px)
+{
+        .element-item{
+        
+                padding-left: 5rem;
+        }
+
+	.contact-me-mail
+	{
+		padding-left: 5rem;
+	}
+}
+
+/* Contact me */
+
+.banner-image .mail{
+        width: 30rem;
+}
+
+#fcf-form {
+        display:block;
+}    
+
+.fcf-label{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: .8rem;
+}
+
+input, textarea{
+        width: 90%;
+        border: 2px solid var(--turquisie-color);
+        border-radius: 5px;
+
+}
+
+.fcf-btn-primary
+{
+        
+        background-color: var(--turquisie-color);
+        border: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: .5rem 1rem;
+        width: 90%;
+}
+
+.contact-me-mail
+{
+        padding-top: 3rem;
+
+}
+
+.info-footer{
+        margin-top: 5em;
+        width: 100%;
+}
+
+.angular-app{
+        box-shadow: none;
+        border-bottom: 3px solid var(--turquisie-color);
+        border-left: 3px solid var(--turquisie-color);
+        transition: box-shadow .5s;
+}
+
+.cv{
+        border-bottom: 3px solid  rgb(94, 10, 62);
+        border-left: 3px solid  rgb(94, 10, 62)
+}
+
+.angular-app:hover{
+        box-shadow: 3px 7px 10px rgb(80, 80, 80);
+}
+
+.aba{
+        text-decoration: none;
+        color: black;
+}
+.aba:hover{
+        text-decoration: none;
+        color: black
+}
+
+
+
+
+
+
+
+
+
+
