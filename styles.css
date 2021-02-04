@@ -137,6 +137,13 @@ html, body{
 
 }
 
+@media only screen and (max-width: 720px)
+{
+        .about-area .row{
+                padding-left: 0;
+        }
+}
+
 
 .fa-circle{
         color: var(--turquisie-color);
