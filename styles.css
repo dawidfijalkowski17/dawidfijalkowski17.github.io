@@ -200,8 +200,8 @@ html, body{
 }
 
 .hd-one-image{
-        width: 80%;
-        height: 11rem;
+        width: 20em;
+        height: 15rem;
         transition: box-shadow .5s;
 }
 
