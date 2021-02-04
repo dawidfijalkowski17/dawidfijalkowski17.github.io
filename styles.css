@@ -182,12 +182,22 @@ html, body{
 .project-area{
         margin-top: 12rem;
 
+
+}
+
+@media only screen and (max-width: 560px)
+{
+        .about-area{
+                align-items: center;
+                text-align: center;
+        }
 }
 
 .project-area .title-h1,
 .project-area .button-group{
         text-align: center;
 }
+
 
 .project-area .button-group button{
         padding: .8rem 2rem;
@@ -211,7 +221,7 @@ html, body{
 }
 
 .grid{
-        padding: 2rem .3rem;
+        align-items: center;
 
 }
 
