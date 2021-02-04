@@ -185,7 +185,7 @@ html, body{
 
 }
 
-@media only screen and (max-width: 560px)
+@media only screen and (max-width: 720px)
 {
         .about-area{
                 align-items: center;
@@ -210,8 +210,7 @@ html, body{
 }
 
 .hd-one-image{
-        width: 18em;
-        height: 12rem;
+        
         transition: box-shadow .5s;
 }
 
@@ -225,18 +224,7 @@ html, body{
 
 }
 
-@media only screen and (max-width: 720px)
-{
-        .element-item{
-        
-                padding-left: 5rem;
-        }
 
-	.contact-me-mail
-	{
-		padding-left: 5rem;
-	}
-}
 
 /* Contact me */
 
