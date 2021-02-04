@@ -278,7 +278,11 @@ input, textarea{
         margin-top: 4em;
         align-items: center;
         text-align: center;
+}
 
+.icons{
+        align-items: center;
+        text-align: center;
 }
 
 .fa-github{
